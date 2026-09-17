@@ -13,6 +13,11 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        serif: ['var(--font-cormorant)'],// Esta será tu fuente por defecto
+        cinzel: ['var(--font-cinzel)'], // Esta es tu nueva fuente personalizada
+        script: ['var(--font-script)'],
+      },
     },
   },
   plugins: [],
